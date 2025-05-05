@@ -1,7 +1,7 @@
 
 import allure
 import pytest
-from . import rest_steps as steps
+from test.steps import rest_steps as steps
 from test.marks import microservice, layer, owner, tm4j, jira_issues
 
 pytestmark = [
