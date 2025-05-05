@@ -6,7 +6,7 @@ from test.marks import microservice, layer, owner, tm4j, jira_issues
 
 pytestmark = [
     layer("rest"),
-    owner("baev"),
+    owner("kuznetsova"),
     allure.feature("Issues")
 ]
 
